@@ -1,0 +1,96 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0 20%;
+    margin-top:10px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.box {
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 38%;
+    display: inline-block;
+    background: rgba(251, 4, 4, 0.795);
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-right: 5%;
+    color: black;
+}
+
+.list {
+    background-color: rgba(172, 255, 47, 0.929);
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.expense-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.expense-header-click {
+    cursor: pointer;
+    color: blue
+}
+
+.card-title {
+    font-size: 16px;
+}
+
+.card-amount {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.add-expense{
+    display: flex;
+    flex-direction: column;
+    padding: 22px 0px;
+    gap:12px
+
+}
+
+
+.add-expense-inp {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-expense-inp > label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.add-expense-inp > input {
+    margin-top:6px;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.add-expense-inp > input:focus {
+    outline: none;  
+    border-bottom: 1px solid #4A55A2;
+}
+
+.add-expense-btn {
+    border: none;
+    background-color: #4A55A2;
+    padding: 15px;
+    color:white;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+}
